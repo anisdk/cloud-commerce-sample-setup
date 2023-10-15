@@ -38,7 +38,11 @@ else {
       },
 
       i18n: {
-        resources: translations,
+        // resources: translations,
+        backend: {
+            loadPath: 'assets/i18n-assets/{{lng}}/{{ns}}.json'
+            // crossOrigin: true (use this option when i18n assets come from a different domain)
+        },
         chunks: translationChunksConfig,
         fallbackLang: 'en'
       },
