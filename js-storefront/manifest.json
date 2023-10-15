@@ -1,0 +1,16 @@
+{
+    "applications": [
+        {
+            "name": "mystore",
+            "path": "mystore",
+            "ssr": {
+                "enabled": true,
+                "path": "dist/mystore/server/main.js"
+            },
+            "csr": {
+                "webroot": "dist/mystore/browser"
+            }
+        }
+    ],
+    "nodeVersion": "12"
+}
