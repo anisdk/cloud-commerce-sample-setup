@@ -29,6 +29,13 @@ import { myOccConfigFactory } from "src/app/myOccConfigFactory";
     },
   }),
   provideConfigFactory(myOccConfigFactory),
+  provideConfig(<OccConfig>{
+    backend: {
+      media: {
+        baseUrl: 'https://api.clwfyft1x1-csamer2021-d37-public.model-t.cc.commerce.ondemand.com',
+      }
+    },
+  }), 
    provideConfig(<FeaturesConfig>{
     features: {
       level: '6.4'
