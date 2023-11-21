@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { translationChunksConfig, translations } from "@spartacus/assets";
-import { FeaturesConfig, I18nConfig, OccConfig, provideConfig, SiteContextConfig } from "@spartacus/core";
+import { FeaturesConfig, I18nConfig, OccConfig, provideConfig, provideConfigFactory, SiteContextConfig } from "@spartacus/core";
 import { defaultCmsContentProviders, layoutConfig, mediaConfig } from "@spartacus/storefront";
+import { myOccConfigFactory } from "src/app/myOccConfigFactory";
 
 @NgModule({
   declarations: [],
@@ -26,7 +27,9 @@ import { defaultCmsContentProviders, layoutConfig, mediaConfig } from "@spartacu
       chunks: translationChunksConfig,
       fallbackLang: 'en'
     },
-  }), provideConfig(<FeaturesConfig>{
+  }),
+  provideConfigFactory(myOccConfigFactory),
+   provideConfig(<FeaturesConfig>{
     features: {
       level: '6.4'
     }
