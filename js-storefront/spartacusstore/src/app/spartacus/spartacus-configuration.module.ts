@@ -9,11 +9,6 @@ import { myOccConfigFactory } from "src/app/myOccConfigFactory";
   imports: [
   ],
   providers: [provideConfig(layoutConfig), provideConfig(mediaConfig), ...defaultCmsContentProviders, provideConfig(<OccConfig>{
-    backend: {
-      occ: {
-       // baseUrl: 'https://localhost:9002',
-      }
-    },
   }), provideConfig(<SiteContextConfig>{
     context: {
       currency: ['USD', 'GBP'],
