@@ -11,7 +11,9 @@
         "webroot": "dist/spartacusstore/browser/"
       },
       "enabledRepositories": ["spartacus-6"]
-    },
+    }
+    /*
+    ,
     {
       "name": "b2bspastore",
       "path": "b2bspastore",
@@ -23,7 +25,7 @@
         "webroot": "dist/b2bspastore/browser/"
       },
       "enabledRepositories": ["spartacus-6"]
-    }
+    } */
   ],
   "nodeVersion": "18"
 }
