@@ -9,5 +9,5 @@ export function myOccConfigFactory(): OccConfig {
     ? 'https://api.clwfyft1x1-csamer2021-d37-public.model-t.cc.commerce.ondemand.com'
     : 'https://api.clwfyft1x1-csamer2021-d37-private.model-t.cc.commerce.ondemand.com';
 
-  return { backend: { occ: { baseUrl } } };
+    return { backend: { occ: { baseUrl: baseUrl }, media: { baseUrl: "https://api.clwfyft1x1-csamer2021-d37-public.model-t.cc.commerce.ondemand.com" } } };
 }

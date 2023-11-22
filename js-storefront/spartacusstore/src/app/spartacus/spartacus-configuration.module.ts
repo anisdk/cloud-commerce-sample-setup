@@ -24,6 +24,7 @@ import { myOccConfigFactory } from "src/app/myOccConfigFactory";
     },
   }),
   provideConfigFactory(myOccConfigFactory),
+  /*
   provideConfig(<OccConfig>{
     backend: {
       media: {
@@ -31,6 +32,7 @@ import { myOccConfigFactory } from "src/app/myOccConfigFactory";
       }
     },
   }), 
+  */
    provideConfig(<FeaturesConfig>{
     features: {
       level: '6.4'
