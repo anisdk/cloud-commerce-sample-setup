@@ -7,7 +7,7 @@ export function myOccConfigFactory(): OccConfig {
   const isBrowser = isPlatformBrowser(platformId);
   const baseUrl = isBrowser
     ? 'https://api.clwfyft1x1-csamer2021-d37-public.model-t.cc.commerce.ondemand.com'
-    : 'https://api.clwfyft1x1-csamer2021-d37-nat.model-t.cc.commerce.ondemand.com';
+    : 'http://api.default.svc.cluster.local:8081';
 
     return { backend: { occ: { baseUrl: baseUrl }, media: { baseUrl: "https://api.clwfyft1x1-csamer2021-d37-public.model-t.cc.commerce.ondemand.com" } } };
 }
