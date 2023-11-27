@@ -10,7 +10,7 @@ import { APP_BASE_HREF } from '@angular/common';
 import { existsSync } from 'fs';
 
 //const ngExpressEngine = NgExpressEngineDecorator.get(engine);
-const ngExpressEngine = NgExpressEngineDecorator.get(engine, { timeout: 100 });
+const ngExpressEngine = NgExpressEngineDecorator.get(engine, { timeout: 100, cacheSize:20 });
 
 //process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
 
