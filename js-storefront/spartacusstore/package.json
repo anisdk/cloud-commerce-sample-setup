@@ -9,8 +9,9 @@
     "test": "ng test",
     "dev:ssr": "ng run spartacusstore:serve-ssr",
     "serve:ssr": "node dist/spartacusstore/server/main.js",
-    "build:ssr": "npm run build --verbose",
-    "prerender": "ng run spartacusstore:prerender"
+    "build:ssr": "yarn prepare-workspace && ng build --configuration production && ng run tenashop-se:server:production",
+    "prerender": "ng run spartacusstore:prerender",
+    "prepare-workspace": "yarn --cwd ../../ && yarn install"
   },
   "private": true,
   "dependencies": {
