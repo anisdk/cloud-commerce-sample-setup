@@ -9,7 +9,7 @@
     "test": "ng test",
     "dev:ssr": "ng run spartacusstore:serve-ssr",
     "serve:ssr": "node dist/spartacusstore/server/main.js",
-    "build:ssr": "ng build && cross-env   NODE_TLS_REJECT_UNAUTHORIZED=0 ng run spartacusstore:server",
+    "build:ssr": "npm run build && cross-env   NODE_TLS_REJECT_UNAUTHORIZED=0 ng run spartacusstore:server",
     "prerender": "ng run spartacusstore:prerender"
   },
   "private": true,
