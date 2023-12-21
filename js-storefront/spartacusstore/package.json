@@ -9,7 +9,7 @@
     "test": "ng test",
     "dev:ssr": "ng run spartacusstore:serve-ssr",
     "serve:ssr": "node dist/spartacusstore/server/main.js",
-    "build:ssr": "yarn prepare-workspace && ng build --configuration production && ng run spartacusstore:server:production",
+    "build:ssr": "npm run build && cross-env   NODE_TLS_REJECT_UNAUTHORIZED=0 ng run spartacusstore:server",
     "prerender": "ng run spartacusstore:prerender",
     "prepare-workspace": "yarn --cwd ../../ && yarn install"
   },
