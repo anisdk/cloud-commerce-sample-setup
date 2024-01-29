@@ -10,13 +10,13 @@ import { defaultCmsContentProviders, layoutConfig, mediaConfig } from "@spartacu
   providers: [provideConfig(layoutConfig), provideConfig(mediaConfig), ...defaultCmsContentProviders, provideConfig(<OccConfig>{
     backend: {
       occ: {
-        baseUrl: 'https://api.clwfyft1x1-csamer2021-d37-public.model-t.cc.commerce.ondemand.com',
+        baseUrl: 'https://api.clwfyft1x1-csamer2021-d29-public.model-t.cc.commerce.ondemand.com',
       }
     },
   }), provideConfig(<SiteContextConfig>{
     context: {
       urlParameters: ['baseSite', 'language', 'currency'],
-      baseSite: ['electronics-spa','apparel-uk-spa'],
+      baseSite: ['electronics-spa', 'apparel-uk-spa'],
       currency: ['USD', 'GBP',]
     },
   }), provideConfig(<I18nConfig>{
@@ -29,6 +29,8 @@ import { defaultCmsContentProviders, layoutConfig, mediaConfig } from "@spartacu
     features: {
       level: '6.6'
     }
+  }), provideConfig(<SiteContextConfig>{
+    context: {},
   })]
 })
 export class SpartacusConfigurationModule { }
