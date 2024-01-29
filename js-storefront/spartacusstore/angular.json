@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "mystore": {
+    "spartacusstore": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/mystore/browser",
+            "outputPath": "dist/spartacusstore/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -82,10 +82,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "mystore:build:production"
+              "browserTarget": "spartacusstore:build:production"
             },
             "development": {
-              "browserTarget": "mystore:build:development"
+              "browserTarget": "spartacusstore:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -93,7 +93,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "mystore:build"
+            "browserTarget": "spartacusstore:build"
           }
         },
         "test": {
@@ -135,7 +135,7 @@
         "server": {
           "builder": "@angular-devkit/build-angular:server",
           "options": {
-            "outputPath": "dist/mystore/server",
+            "outputPath": "dist/spartacusstore/server",
             "main": "server.ts",
             "tsConfig": "tsconfig.server.json",
             "stylePreprocessorOptions": {
@@ -162,12 +162,12 @@
           "builder": "@nguniversal/builders:ssr-dev-server",
           "configurations": {
             "development": {
-              "browserTarget": "mystore:build:development",
-              "serverTarget": "mystore:server:development"
+              "browserTarget": "spartacusstore:build:development",
+              "serverTarget": "spartacusstore:server:development"
             },
             "production": {
-              "browserTarget": "mystore:build:production",
-              "serverTarget": "mystore:server:production"
+              "browserTarget": "spartacusstore:build:production",
+              "serverTarget": "spartacusstore:server:production"
             }
           },
           "defaultConfiguration": "development"
@@ -181,12 +181,12 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "mystore:build:production",
-              "serverTarget": "mystore:server:production"
+              "browserTarget": "spartacusstore:build:production",
+              "serverTarget": "spartacusstore:server:production"
             },
             "development": {
-              "browserTarget": "mystore:build:development",
-              "serverTarget": "mystore:server:development"
+              "browserTarget": "spartacusstore:build:development",
+              "serverTarget": "spartacusstore:server:development"
             }
           },
           "defaultConfiguration": "production"
