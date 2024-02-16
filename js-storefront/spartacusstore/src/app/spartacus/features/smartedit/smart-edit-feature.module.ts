@@ -18,7 +18,7 @@ import { SmartEditConfig, SmartEditRootModule, SMART_EDIT_FEATURE } from "@spart
   provideConfig(<SmartEditConfig>{
     smartEdit: {
       storefrontPreviewRoute: 'cx-preview',
-      allowOrigin: 'localhost:9002,backoffice.clwfyft1x1-csamer2021-p4-public.model-t.cc.commerce.ondemand.com:443',
+      allowOrigin: 'localhost:9002,backoffice.clwfyft1x1-csamer2021-d37-public.model-t.cc.commerce.ondemand.com:443',
     },
   })
   ]
