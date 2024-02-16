@@ -10,7 +10,7 @@ import { defaultCmsContentProviders, layoutConfig, mediaConfig } from "@spartacu
   providers: [provideConfig(layoutConfig), provideConfig(mediaConfig), ...defaultCmsContentProviders, provideConfig(<OccConfig>{
     backend: {
       occ: {
-        baseUrl: 'https://api.clwfyft1x1-csamer2021-d29-public.model-t.cc.commerce.ondemand.com',
+        baseUrl: 'https://api.clwfyft1x1-csamer2021-p4-public.model-t.cc.commerce.ondemand.com',
       }
     },
   }), provideConfig(<SiteContextConfig>{
