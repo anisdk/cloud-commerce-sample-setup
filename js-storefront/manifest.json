@@ -5,7 +5,7 @@
             "name": "spartacusstore",
             "path": "spartacusstore",
             "ssr": {
-                "enabled": true,
+                "enabled": false,
                 "path": "dist/spartacusstore/server/main.js"
             },
             "csr": {
