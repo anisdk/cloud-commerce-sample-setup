@@ -19,7 +19,8 @@ import { SpartacusModule } from './spartacus/spartacus.module';
     EffectsModule.forRoot([]),
     SpartacusModule
   ],
-  providers: [],
+  providers: [{ provide: APP_BASE_HREF, useValue: '/shop/' }, 
+],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
