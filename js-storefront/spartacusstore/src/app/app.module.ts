@@ -6,6 +6,7 @@ import { StoreModule } from "@ngrx/store";
 import { AppRoutingModule } from "@spartacus/storefront";
 import { AppComponent } from './app.component';
 import { SpartacusModule } from './spartacus/spartacus.module';
+import { APP_BASE_HREF } from '@angular/common';
 
 @NgModule({
   declarations: [
