@@ -1,9 +1,9 @@
 {
-    "commerceSuiteVersion": "2211.20",
+    "commerceSuiteVersion": "2211.25",
     "extensionPacks" : [
 	{
 		"name" : "hybris-b2ctelco-suite",
-		"version" : "2302.6"
+		"version" : "2302.7"
 	}
 	],
     "enableImageProcessingService": true,
