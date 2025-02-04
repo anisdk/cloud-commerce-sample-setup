@@ -11,7 +11,7 @@ import { fileURLToPath } from 'node:url';
 import AppServerModule from './src/main.server';
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
 
-const ngExpressEngine = NgExpressEngineDecorator.get(engine, {
+const ngExpressEngine = NgExpressEngineDecorator.get(engine, { timeout: 50000,
   ssrFeatureToggles: {
     avoidCachingErrors: true,
   },
