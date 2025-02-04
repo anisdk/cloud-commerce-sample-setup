@@ -2,6 +2,7 @@
 .metadata
 .DS_Store
 **/gensrc
+.npmrc
 
 #IDE files
 .gradle
