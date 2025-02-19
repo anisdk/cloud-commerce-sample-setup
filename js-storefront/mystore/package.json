@@ -63,7 +63,7 @@
     "@angular/compiler": "^17.0.5",
     "@angular/compiler-cli": "^17.3.0",
     "@schematics/angular": "^17.0.5",
-    "@spartacus/schematics": "^2211.32.1",
+    "@spartacus/schematics": "~2211.32.1",
     "@types/express": "^4.17.17",
     "@types/jasmine": "~5.1.0",
     "@types/node": "^18.18.0",
