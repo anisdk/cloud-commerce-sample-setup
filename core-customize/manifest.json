@@ -1,9 +1,9 @@
 {
-  "commerceSuiteVersion": "2211",
+  "commerceSuiteVersion": "2211-jdk21",
   "extensionPacks": [
     {
       "name": "hybris-b2ctelco-suite",
-      "version": "2302-jdk21.1"
+      "version": "2302-jdk21"
     }
   ],
   "extensions": [
