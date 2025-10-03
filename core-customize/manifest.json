@@ -3,7 +3,7 @@
   "extensionPacks": [
     {
       "name": "hybris-b2ctelco-suite",
-      "version": "2302.11"
+      "version": "2302-jdk21.0"
     }
   ],
   "extensions": [
