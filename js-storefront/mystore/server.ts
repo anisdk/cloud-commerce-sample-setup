@@ -11,6 +11,8 @@ import { fileURLToPath } from 'node:url';
 import AppServerModule from './src/main.server';
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
 
+import remoteHeapDump from './heapdump';
+
 const ngExpressEngine = NgExpressEngineDecorator.get(engine, { timeout: 50000,
   ssrFeatureToggles: {
     avoidCachingErrors: true,
@@ -44,7 +46,7 @@ export function app(): express.Express {
       maxAge: '1y',
     })
   );
-
+  server.use(remoteHeapDump);
   // All regular routes use the Universal engine
   server.get('*', (req, res) => {
     res.render(indexHtml, {
