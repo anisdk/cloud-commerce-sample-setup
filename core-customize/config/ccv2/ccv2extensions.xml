@@ -104,8 +104,6 @@
         <extension name='saputilitiesb2corderfacades'/>
         <extension name='saputilitiesb2corderservices'/>
         <extension name='saputilitiesb2corderbackoffice'/>
-        <extension name='b2ctelcoteststore'/>
-        <extension name='b2ctelcomocks'/>
         <extension name='b2ctelcoaddon'/>  
         <extension name="searchservices"/>
         <extension name="searchbackoffice"/>
