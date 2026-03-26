@@ -3,7 +3,11 @@
   "extensionPacks": [
      {
          "artifact": "de.hybris.platform:hybris-commerce-integrations:2211-jdk21.5"
-     }
+     },
+    { 
+      "name": "hybris-b2ctelco-suite",
+      "version": "2302-jdk21.5"
+    }
   ],
   "solrVersion": "9.8",
   "useConfig": {
