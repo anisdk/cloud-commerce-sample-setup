@@ -1,8 +1,9 @@
 {
-  "commerceSuiteArtifact": "de.hybris.platform:hybris-commerce-suite:2211-jdk21.7",
+  "commerceSuiteVersion": "2211-jdk21.7",
   "extensionPacks": [
      {
-         "artifact": "de.hybris.platform:hybris-commerce-integrations:2211-jdk21.5"
+         "name": "hybris-commerce-integrations",
+         "version": "2211-jdk21.5"
      },
     { 
       "name": "hybris-b2ctelco-suite",
