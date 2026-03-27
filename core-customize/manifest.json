@@ -54,31 +54,6 @@
       "addon": "b2ctelcoaddon",
       "storefront": "yacceleratorstorefront",
       "template": "yacceleratorstorefront"
-    },
-    {
-      "addon": "smarteditaddon",
-      "storefront": "yacceleratorstorefront",
-      "template": "yacceleratorstorefront"
-    },
-    {
-      "addon": "assistedservicestorefront",
-      "storefront": "yacceleratorstorefront",
-      "template": "yacceleratorstorefront"
-    },
-    {
-      "addon": "assistedservicecustomerinterestsaddon",
-      "storefront": "yacceleratorstorefront",
-      "template": "yacceleratorstorefront"
-    },
-    {
-      "addon": "customerticketingaddon",
-      "storefront": "yacceleratorstorefront",
-      "template": "yacceleratorstorefront"
-    },
-    {
-      "addon": "pcmbackofficesamplesaddon",
-      "storefront": "yacceleratorstorefront",
-      "template": "yacceleratorstorefront"
     }
   ],
         "webapps": [
