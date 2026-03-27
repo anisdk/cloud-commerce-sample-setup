@@ -110,5 +110,7 @@
         <extension name="searchprovidercssearchservices"/>
         <extension name="searchprovidercssearchbackoffice"/>
         <extension name="backofficesearchservices"/>
+          <extension name="yacceleratorstorefront"/>
+          
     </extensions>
 </hybrisconfig>
