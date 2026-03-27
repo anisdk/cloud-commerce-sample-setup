@@ -49,13 +49,7 @@
                 "value": "/backoffice"
             }
         ],
-        "storefrontAddons": [
-    {
-      "addon": "b2ctelcoaddon",
-      "storefront": "yacceleratorstorefront",
-      "template": "yacceleratorstorefront"
-    }
-  ],
+
         "webapps": [
             {
                 "name": "hac",
@@ -218,11 +212,22 @@
                 "value": "/events"
             }
         ],
+              "storefrontAddons": [
+    {
+      "addon": "b2ctelcoaddon",
+      "storefront": "yacceleratorstorefront",
+      "template": "yacceleratorstorefront"
+    }
+  ],
         "webapps": [
             {
                 "name": "mediaweb",
                 "contextPath": "/medias"
             },
+                  {
+          "name": "yacceleratorstorefront",
+          "contextPath": "/yacceleratorstorefront"
+        },
             {
                 "name": "acceleratorservices",
                 "contextPath": "/acceleratorservices"
